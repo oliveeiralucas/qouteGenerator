@@ -3,7 +3,7 @@
 <!---Esses são exemplos. Veja https://shields.io para outras pessoas ou para personalizar este conjunto de escudos. Você pode querer incluir dependências, status do projeto e informações de licença aqui--->
 
 
-<img src="https://repository-images.githubusercontent.com/455191176/28ee7d37-5de3-4cae-8aec-0dd3bb15b5bb" alt="exemplo imagem">
+<img src="/Captura%20de%20tela%202023-03-31%20012243.png" alt="exemplo imagem">
 <hr>
 
 > O repositório do random quote generator é um projeto de código aberto que fornece uma maneira fácil e divertida de gerar citações aleatórias para inspiração, reflexão ou entretenimento. O projeto consiste em um conjunto de arquivos de código-fonte que contém as funcionalidades necessárias para gerar aleatoriamente citações de diferentes categorias, como citações de filósofos, citações de autores famosos, citações de filmes, entre outras.
