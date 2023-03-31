@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+
+    --color-one: #134074;
+    --color-two: #13315C;
+    --color-three: #0B2545;
+    --color-four: #8DA9C4;
+    --color-five: #EEF4ED;
+    --color-text-one: 
+    --color-text-two:
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: var(--color-one);
+}
+
+.container{
+    width: 60%;
+    background-color: var(--color-five);
+    border-radius: 15px;
+    padding: 30px 30px 25px;
+}
+
+.container header{
+    font-size: 2.18rem;
+    font-weight: 600;
+    text-align: center;
+}
+
+.content{
+    margin: 2.2rem 0;
+}
+
+.frase-area{
+    display: flex;
+    justify-content: center;
+}
+
+.frase-area i:first-child{
+    margin: 3px 10px 0 0;
+    font-size: 1.2rem;
+}
+
+.frase-area i:last-child{
+    margin: 0px 0px 3px 10px;
+    display: flex;
+    align-items: flex-end;
+    font-size: 1.2rem;
+}
+
+.frase-area p{
+    font-size: 1.3rem;
+    text-align: center;
+    hyphens: auto;
+    word-wrap: break-word;
+
+}
+
+.content .author{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1.2rem;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.author span:first-child{
+    margin: -7px 5px 0 0;
+    font-family: monospace;
+    padding-top: 1px;
+}
+
+.container .buttons{
+    margin-top: 15px;
+    border-top: solid 2px var(--color-four);
+}
+
+.container .buttons .features{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.features ul{
+    display: flex;
+}
+
+.features ul li{
+    list-style: none;
+    margin: 0px 5px;
+    width: 45px;
+    height: 45px;
+    border: solid 2px var(--color-one);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-one);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.features ul li:hover{
+    background-color: var(--color-one);
+    color: var(--color-five);
+}
+
+button{
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    padding: 13px 22px;
+    border-radius: 30px;
+    background-color: var(--color-one);
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: var(--color-two);
+}
+
+.Carregando{
+    opacity: 0.7;
+    pointer-events: none;
+}
